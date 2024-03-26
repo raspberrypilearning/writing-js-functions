@@ -31,7 +31,7 @@ function addNumbers(a, b) {
 
 Here, `addNumbers` is a function that takes two inputs `a` and `b` and returns their sum.
 
-### Using a Function:
+### Using a Function:
 
 You use a function by **calling** it.
 
