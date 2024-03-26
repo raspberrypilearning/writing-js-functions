@@ -1,59 +1,54 @@
-## Introduction
+A function is a reusable block of code that performs a specific task.
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+Functions break your code into particular tasks so it is easier to understand. 
 
-### What you will make
+Especially when you have tasks that need to be done multiple times. They're like tools you can use over and over in different parts of your code.
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
+### Writing a Function:
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
++ Start with the `function` keyword to indicate the creation of a function. 
++ Give your function a name (e.g. `addNumbers`).
++ Include brackets `()` after the function name. These can include parameters (inputs) your function needs.
++ Use open curly braces `{` to define the block of code that the function will execute.
++ Close the curly braces `}` to show the end of the function.
 
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
+Here is an example:
 
---- collapse ---
+--- code ---
 ---
-title: What you will need
----
-### Hardware
-
-+ A computer or tablet capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](https://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
+language: js
+filename:
+line_numbers:
+line_number_start:
+line_highlights:
 ---
 
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
+function addNumbers(a, b) {
+  return a + b;
+}
+    
+--- /code ---
 
---- /collapse ---
+Here, `addNumbers` is a function that takes two inputs `a` and `b` and returns their sum.
 
---- collapse ---
+### Using a Function:
+
+You use a function by **calling** it.
+
+Here, the function `addNumbers()` is called with values 5 and 8. 
+
+It returns the sum of the number, which you can then use. In this example, the sum of 5 and 8 is assigned to the variable `result` and then `result` is displayed in the Console.
+
+--- code ---
 ---
-title: Additional information for educators
+language: js
+filename:
+line_numbers: 
+line_number_start:
+line_highlights:
 ---
 
-You can download the completed project [here](https://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
+let result = addNumbers(5, 8);
+console.log(result); // Outputs: 13
+    
+--- /code ---
