@@ -1,18 +1,18 @@
-A function is a reusable block of code that performs a specific task.
+Une fonction est un bloc de code réutilisable qui exécute une tâche spécifique.
 
-Functions break your code into particular tasks so it is easier to understand.
+Les fonctions décomposent ton code en tâches particulières pour qu'il soit plus facile à comprendre.
 
-Especially when you have tasks that need to be done multiple times. They're like tools you can use over and over in different parts of your code.
+They are especially useful when you have tasks that need to be done multiple times. Ce sont comme des outils que tu peux réutiliser dans différentes parties de ton code.
 
-### Writing a Function:
+### Writing a function:
 
-- Start with the `function` keyword to indicate the creation of a function.
-- Give your function a name (e.g. `addNumbers`).
-- Include brackets `()` after the function name. These can include parameters (inputs) your function needs.
-- Use open curly braces `{` to define the block of code that the function will execute.
-- Close the curly braces `}` to show the end of the function.
+- Commence par le mot-clé `function` pour indiquer la création d'une fonction.
+- Donne un nom à ta fonction (par exemple `ajouterNombres`).
+- Inclue des parenthèses `()` après le nom de la fonction. These can contain the parameters (inputs) your function needs.
+- Utilise des accolades ouvertes `{` pour définir le bloc de code que la fonction va exécuter.
+- Ferme les accolades `}` pour indiquer la fin de la fonction.
 
-Here is an example:
+Voici un exemple :
 
 ## --- code ---
 
@@ -29,15 +29,15 @@ return a + b;
 
 \--- /code ---
 
-Here, `addNumbers` is a function that takes two inputs `a` and `b` and returns their sum.
+Ici, `ajouterNombres` est une fonction qui prend deux entrées `a` et `b` et renvoie leur somme.
 
-### Using a Function:
+### Using a function:
 
-You use a function by **calling** it.
+Pour utiliser une fonction, tu dois l'**appeler**.
 
-Here, the function `addNumbers()` is called with values 5 and 8.
+Ici, la fonction `ajouterNombres()` est appelée avec les valeurs 5 et 8.
 
-It returns the sum of the number, which you can then use. In this example, the sum of 5 and 8 is assigned to the variable `result` and then `result` is displayed in the Console.
+It returns the sum of the numbers, which you can then use. In this example, the sum of 5 and 8 is assigned to the variable `result` and then `result` is displayed in the console.
 
 ## --- code ---
 
@@ -48,7 +48,7 @@ line_number_start:
 line_highlights:
 -----------------------------------------------------
 
-let result = addNumbers(5, 8);
-console.log(result); // Outputs: 13
+let resultat = ajouterNombres(5, 8);
+console.log(resultat); // Sorties : 13
 
 \--- /code ---
