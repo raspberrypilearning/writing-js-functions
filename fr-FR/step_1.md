@@ -23,7 +23,7 @@ line_number_start:
 line_highlights:
 ---
 
-function addNumbers(a, b) {
+function ajouterNombres(a, b) {
   return a + b;
 }
     
@@ -48,7 +48,7 @@ line_number_start:
 line_highlights:
 ---
 
-let resultat = addNumbers(5, 8);
+let resultat = ajouterNombres(5, 8);
 console.log(resultat); // Sorties: 13
     
 --- /code ---
