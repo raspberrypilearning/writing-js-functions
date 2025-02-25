@@ -23,7 +23,7 @@ line_number_start:
 line_highlights:
 ---
 
-function addNumbers(a, b) {
+function optellenGetallen(a, b) {
   return a + b;
 }
     
@@ -48,7 +48,7 @@ line_number_start:
 line_highlights:
 ---
 
-let resultaat = addNumbers(5, 8);
+let resultaat = optellenGetallen(5, 8);
 console.log(resultaat); // Uitvoer: 13
     
 --- /code ---
