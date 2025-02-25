@@ -23,7 +23,7 @@ line_number_start:
 line_highlights:
 -----------------------------------------------------
 
-function addNumbers(a, b) {
+function ajouterNombres(a, b) {
 return a + b;
 }
 
