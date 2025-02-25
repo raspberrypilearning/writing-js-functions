@@ -1,10 +1,10 @@
-title: Writing JavaScript functions
+title: JavaScript-functies schrijven
 hero_image: images/banner.png
-description: How to write functions in JS
+description: Hoe schrijf je functies in JS
 version: 4
 listed: false
 copyedit: false
 last_tested: "2022-05-19"
 steps:
   - 
-    title: Writing and calling functions
+    title: Functies schrijven en aanroepen
