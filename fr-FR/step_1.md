@@ -2,13 +2,13 @@ Une fonction est un bloc de code réutilisable qui exécute une tâche spécifiq
 
 Les fonctions décomposent ton code en tâches particulières pour qu'il soit plus facile à comprendre.
 
-They are especially useful when you have tasks that need to be done multiple times. Ce sont comme des outils que tu peux réutiliser dans différentes parties de ton code.
+C'est surtout pratique lorsque tu dois effectuer des tâches plusieurs fois. Ce sont comme des outils que tu peux réutiliser dans différentes parties de ton code.
 
-### Writing a function:
+### Écrire une fonction :
 
 - Commence par le mot-clé `function` pour indiquer la création d'une fonction.
 - Donne un nom à ta fonction (par exemple `ajouterNombres`).
-- Inclue des parenthèses `()` après le nom de la fonction. These can contain the parameters (inputs) your function needs.
+- Inclue des parenthèses `()` après le nom de la fonction. Elles peuvent contenir des paramètres (entrées) dont ta fonction a besoin.
 - Utilise des accolades ouvertes `{` pour définir le bloc de code que la fonction va exécuter.
 - Ferme les accolades `}` pour indiquer la fin de la fonction.
 
@@ -31,13 +31,13 @@ return a + b;
 
 Ici, `ajouterNombres` est une fonction qui prend deux entrées `a` et `b` et renvoie leur somme.
 
-### Using a function:
+### Utiliser une fonction :
 
 Pour utiliser une fonction, tu dois l'**appeler**.
 
 Ici, la fonction `ajouterNombres()` est appelée avec les valeurs 5 et 8.
 
-It returns the sum of the numbers, which you can then use. In this example, the sum of 5 and 8 is assigned to the variable `result` and then `result` is displayed in the console.
+Elle renvoie la somme de ces nombres, que tu peux ensuite utiliser. Dans cet exemple, la somme de 5 et 8 est attribuée à la variable `resultat`, et `resultat` est ensuite affiché dans la console.
 
 ## --- code ---
 
