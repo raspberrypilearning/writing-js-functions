@@ -1,18 +1,18 @@
-A function is a reusable block of code that performs a specific task.
+Een functie is een herbruikbaar blok code dat een specifieke taak uitvoert.
 
-Functions break your code into particular tasks so it is easier to understand.
+Functies verdelen je code in bepaalde taken zodat deze makkelijker te begrijpen is.
 
-Especially when you have tasks that need to be done multiple times. They're like tools you can use over and over in different parts of your code.
+They are especially useful when you have tasks that need to be done multiple times. Het zijn een soort hulpmiddelen die je steeds opnieuw kunt gebruiken in verschillende delen van je code.
 
-### Writing a Function:
+### Writing a function:
 
-- Start with the `function` keyword to indicate the creation of a function.
-- Give your function a name (e.g. `addNumbers`).
-- Include brackets `()` after the function name. These can include parameters (inputs) your function needs.
-- Use open curly braces `{` to define the block of code that the function will execute.
-- Close the curly braces `}` to show the end of the function.
+- Begin met het trefwoord `function` om aan te geven dat er een functie wordt aangemaakt.
+- Geef je functie een naam (bijv. `optellenGetallen`).
+- Plaats haakjes `()` na de functienaam. These can contain the parameters (inputs) your function needs.
+- Gebruik open accolades `{` om het codeblok te definiëren dat de functie zal uitvoeren.
+- Sluit de accolades `}` om het einde van de functie aan te geven.
 
-Here is an example:
+Hier is een voorbeeld:
 
 ## --- code ---
 
@@ -29,15 +29,15 @@ return a + b;
 
 \--- /code ---
 
-Here, `addNumbers` is a function that takes two inputs `a` and `b` and returns their sum.
+`optellenGetallen` is hier een functie die twee invoeren `a` en `b` neemt en hun som retourneert.
 
-### Using a Function:
+### Using a function:
 
-You use a function by **calling** it.
+Je gebruikt een functie door deze **aan te roepen**.
 
-Here, the function `addNumbers()` is called with values 5 and 8.
+Hier wordt de functie `optellenGetallen()` aangeroepen met de waarden 5 en 8.
 
-It returns the sum of the number, which you can then use. In this example, the sum of 5 and 8 is assigned to the variable `result` and then `result` is displayed in the Console.
+It returns the sum of the numbers, which you can then use. In this example, the sum of 5 and 8 is assigned to the variable `result` and then `result` is displayed in the console.
 
 ## --- code ---
 
@@ -48,7 +48,7 @@ line_number_start:
 line_highlights:
 -----------------------------------------------------
 
-let result = addNumbers(5, 8);
-console.log(result); // Outputs: 13
+let resultaat = optellenGetallen(5, 8);
+console.log(resultaat); // Uitvoer: 13
 
 \--- /code ---
