@@ -2,13 +2,13 @@ Een functie is een herbruikbaar blok code dat een specifieke taak uitvoert.
 
 Functies verdelen je code in bepaalde taken zodat deze makkelijker te begrijpen is.
 
-They are especially useful when you have tasks that need to be done multiple times. Het zijn een soort hulpmiddelen die je steeds opnieuw kunt gebruiken in verschillende delen van je code.
+Vooral als je taken hebt die meerdere keren moeten worden uitgevoerd. Het zijn een soort hulpmiddelen die je steeds opnieuw kunt gebruiken in verschillende delen van je code.
 
-### Writing a function:
+### Een functie schrijven:
 
 - Begin met het trefwoord `function` om aan te geven dat er een functie wordt aangemaakt.
 - Geef je functie een naam (bijv. `optellenGetallen`).
-- Plaats haakjes `()` na de functienaam. These can contain the parameters (inputs) your function needs.
+- Plaats haakjes `()` na de functienaam. Dit kunnen parameters (invoer) zijn die jouw functie nodig heeft.
 - Gebruik open accolades `{` om het codeblok te definiëren dat de functie zal uitvoeren.
 - Sluit de accolades `}` om het einde van de functie aan te geven.
 
@@ -31,13 +31,13 @@ return a + b;
 
 `optellenGetallen` is hier een functie die twee invoeren `a` en `b` neemt en hun som retourneert.
 
-### Using a function:
+### Een functie gebruiken:
 
 Je gebruikt een functie door deze **aan te roepen**.
 
 Hier wordt de functie `optellenGetallen()` aangeroepen met de waarden 5 en 8.
 
-It returns the sum of the numbers, which you can then use. In this example, the sum of 5 and 8 is assigned to the variable `result` and then `result` is displayed in the console.
+Het retourneert de som van de getallen, die je vervolgens kunt gebruiken. In dit voorbeeld wordt de som van 5 en 8 toegewezen aan de variabele `resultaat` en vervolgens wordt `resultaat` weergegeven in de console.
 
 ## --- code ---
 
